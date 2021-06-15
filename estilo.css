@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    background: linear-gradient(100deg, rgb(12, 129, 184),rgb(98, 0, 128));
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    box-sizing: border-box;
+}
+
+form{
+    width: 370px;
+    display: inline-block;
+}
+
+
+div{
+    background: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    height: 45%;
+    
+}
+h1{
+    text-align: center;
+    color:rgb(98, 0, 128);
+}
+
+.lastName{
+    
+    
+    width: 40%;
+    
+    margin-left: 12px;
+}
+
+.nomeInput{
+   width: 40%;
+   margin-left: 10px;
+}
+.longInput{
+    width: 90%;
+    align-items: center;
+    margin: 10px;
+}
+input{
+    background-color:whitesmoke ;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+.checkbox{
+    margin-left:10px;
+    
+}
+
+.Botão{
+
+padding: 13px;
+border-radius: 20px;
+display:flex;
+margin-top: 25px;
+margin-left: 8.5rem;
+font-size: large;
+background:  rgba(125, 106, 155, 0.493);
+
+}
+a{
+    color: rgba(0, 0, 0, 0.452);
+    text-decoration: none;
+}
+.color{
+  color: black;
+}
